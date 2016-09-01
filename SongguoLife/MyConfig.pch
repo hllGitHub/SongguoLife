@@ -17,13 +17,81 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <YYText.h>
-#import <YYImage.h>
+//#import <YYText.h>
+//#import <YYImage.h>
 //#import "UIColor+ZYLHexColor.h"
 //#define MAS_SHORTHAND
+
+#import "UIColor+ZYLHexColor.h"
 
 #define MAS_SHORTHAND_GLOBALS
 
 #import <Masonry.h>
 
 #endif
+
+/////////////////////* 宏定义方法 *////////////////////////
+
+#define NAV_BACK @"#D21112"
+#define BACK_COLOR @"#F7F4F0"
+#define TITLE_NORMAL_COLOR @"#B0B0B0"
+#define TITLE_HIGHLIGHT_COLOR  @"#FF5723"
+#define NAV_TITLE_COLOR [UIColor colorWithHexString:@"#AC918E"]
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+/**
+ *  字符串容错
+ */
+#define USTR(string) string == nil?@"":string
+
+// 系统版本比较
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+/**
+ *  获取屏幕尺寸
+ */
+#define KSCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define KSCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+/**
+ *  获取元素的横纵坐标
+ */
+#define K_GETPOSITION_X(Ele)    Ele.frame.origin.x
+#define K_GETPOSITION_Y(Ele)    Ele.frame.origin.y
+
+/**
+ *  获取元素的宽高尺寸
+ */
+#define K_GETSIZE_WIDTH(Ele)    Ele.frame.size.width
+#define K_GETSIZE_HEIGHT(Ele)   Ele.frame.size.height
+
+/**
+ *  定义颜色
+ */
+#define K_COLOR_RGB(RED, GREEN, BLUE, ALPHA)	[UIColor colorWithRed:RED/255.0 green:GREEN/255.0 blue:BLUE/255.0 alpha:ALPHA]
+
+
+/**
+ *  BUG调试状态下输出函数
+ *  @return 输出函数
+ */
+#ifdef DEBUG
+
+#define DB_Log(fmt, ...) NSLog((@"%s," "[lineNum:%d]" fmt) , __FUNCTION__, __LINE__, ##__VA_ARGS__);    // 输出函数名和行数
+#define DL_Log(fmt, ...) NSLog((@"===[lineNum:%d]" fmt), __LINE__, ##__VA_ARGS__);                      // 输出行数
+#define DC_Log(fmt, ...) NSLog((fmt), ##__VA_ARGS__);                                                   // 不输出函数名和行数
+
+#else
+
+#define DB_Log(fmt, ...);
+#define DL_Log(fmt, ...);
+#define DC_Log(fmt, ...);
+
+#endif
+
+

@@ -4,6 +4,7 @@ target :SongguoLife do
 
 pod 'YTKNetwork', '~> 1.2.0'
 pod 'SDWebImage', '~> 3.8.1'
+pod 'YYText', '~> 1.0.5'
 pod 'pop', :git => 'https://github.com/facebook/pop.git'
 pod 'Masonry', '~> 1.0.1'
 pod 'UMengSocialCOM', '~> 5.2.1'

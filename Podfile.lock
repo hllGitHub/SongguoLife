@@ -38,6 +38,7 @@ PODS:
   - YTKNetwork (1.2.0):
     - AFDownloadRequestOperation (~> 2.0)
     - AFNetworking (~> 2.0)
+  - YYText (1.0.5)
 
 DEPENDENCIES:
   - BButton (~> 4.0.2)
@@ -51,6 +52,7 @@ DEPENDENCIES:
   - UMengShareSetup (~> 0.0.1)
   - UMengSocialCOM (~> 5.2.1)
   - YTKNetwork (~> 1.2.0)
+  - YYText (~> 1.0.5)
 
 EXTERNAL SOURCES:
   pop:
@@ -75,5 +77,6 @@ SPEC CHECKSUMS:
   UMengShareSetup: 815f1310f5fb4422cf4e9e6827b5b94d4302441d
   UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67
   YTKNetwork: 5209d944a6c1b559f90ecc8e33e0792132dcdf0e
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
 
 COCOAPODS: 0.39.0
