@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188A3B1E1D78200A007AA866 /* ExplorePart.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188A3B1D1D78200A007AA866 /* ExplorePart.xcassets */; };
+		188A3B201D782045007AA866 /* TabbrPart.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188A3B1F1D782045007AA866 /* TabbrPart.xcassets */; };
 		1894C7841D77D4730030255D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7831D77D4730030255D /* main.m */; };
 		1894C78D1D77D4730030255D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894C78B1D77D4730030255D /* Main.storyboard */; };
 		1894C78F1D77D4730030255D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894C78E1D77D4730030255D /* Assets.xcassets */; };
@@ -16,6 +18,9 @@
 		1894C7D21D77D67A0030255D /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7D11D77D67A0030255D /* MyAppDelegate.m */; };
 		1894C7D81D77DFBC0030255D /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7D71D77DFBC0030255D /* BaseModel.m */; };
 		1894C7DB1D77DFD10030255D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7DA1D77DFD10030255D /* BaseViewController.m */; };
+		1894C7DD1D781A310030255D /* LaunchPart.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894C7DC1D781A310030255D /* LaunchPart.xcassets */; };
+		1894C7DF1D781D7D0030255D /* LoginPart.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894C7DE1D781D7D0030255D /* LoginPart.xcassets */; };
+		1894C7E11D781DB60030255D /* CommonPart.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894C7E01D781DB60030255D /* CommonPart.xcassets */; };
 		4A8FFFCDF65F8AD9D202A27C /* libPods-SongguoLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 563F6A647E281725CDF830BB /* libPods-SongguoLife.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +44,8 @@
 /* Begin PBXFileReference section */
 		051EE440189E08B556574E7A /* Pods-SongguoLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongguoLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SongguoLife/Pods-SongguoLife.release.xcconfig"; sourceTree = "<group>"; };
 		1384972B1E0D86F3ADD7D071 /* Pods-SongguoLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongguoLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SongguoLife/Pods-SongguoLife.debug.xcconfig"; sourceTree = "<group>"; };
+		188A3B1D1D78200A007AA866 /* ExplorePart.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ExplorePart.xcassets; sourceTree = "<group>"; };
+		188A3B1F1D782045007AA866 /* TabbrPart.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TabbrPart.xcassets; sourceTree = "<group>"; };
 		1894C77F1D77D4730030255D /* SongguoLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongguoLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1894C7831D77D4730030255D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1894C78C1D77D4730030255D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,6 +65,9 @@
 		1894C7D71D77DFBC0030255D /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		1894C7D91D77DFD10030255D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		1894C7DA1D77DFD10030255D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1894C7DC1D781A310030255D /* LaunchPart.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchPart.xcassets; sourceTree = "<group>"; };
+		1894C7DE1D781D7D0030255D /* LoginPart.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LoginPart.xcassets; sourceTree = "<group>"; };
+		1894C7E01D781DB60030255D /* CommonPart.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CommonPart.xcassets; sourceTree = "<group>"; };
 		563F6A647E281725CDF830BB /* libPods-SongguoLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongguoLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +134,11 @@
 			children = (
 				1894C78B1D77D4730030255D /* Main.storyboard */,
 				1894C78E1D77D4730030255D /* Assets.xcassets */,
+				1894C7DC1D781A310030255D /* LaunchPart.xcassets */,
+				1894C7DE1D781D7D0030255D /* LoginPart.xcassets */,
+				1894C7E01D781DB60030255D /* CommonPart.xcassets */,
+				188A3B1D1D78200A007AA866 /* ExplorePart.xcassets */,
+				188A3B1F1D782045007AA866 /* TabbrPart.xcassets */,
 				1894C7901D77D4730030255D /* LaunchScreen.storyboard */,
 				1894C7931D77D4730030255D /* Info.plist */,
 				1894C7831D77D4730030255D /* main.m */,
@@ -509,8 +524,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188A3B201D782045007AA866 /* TabbrPart.xcassets in Resources */,
 				1894C7921D77D4730030255D /* LaunchScreen.storyboard in Resources */,
+				1894C7DD1D781A310030255D /* LaunchPart.xcassets in Resources */,
+				1894C7DF1D781D7D0030255D /* LoginPart.xcassets in Resources */,
+				1894C7E11D781DB60030255D /* CommonPart.xcassets in Resources */,
 				1894C78F1D77D4730030255D /* Assets.xcassets in Resources */,
+				188A3B1E1D78200A007AA866 /* ExplorePart.xcassets in Resources */,
 				1894C78D1D77D4730030255D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
