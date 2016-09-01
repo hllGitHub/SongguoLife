@@ -1,0 +1,29 @@
+//
+//  MyConfig.pch
+//  SongguoLife
+//
+//  Created by Apple on 16/9/1.
+//  Copyright © 2016年 HLL. All rights reserved.
+//
+
+#ifndef MyConfig_pch
+#define MyConfig_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MyConfig_pch */
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <YYText.h>
+#import <YYImage.h>
+//#import "UIColor+ZYLHexColor.h"
+//#define MAS_SHORTHAND
+
+#define MAS_SHORTHAND_GLOBALS
+
+#import <Masonry.h>
+
+#endif

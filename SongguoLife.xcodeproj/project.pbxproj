@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1894C7841D77D4730030255D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7831D77D4730030255D /* main.m */; };
-		1894C7871D77D4730030255D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7861D77D4730030255D /* AppDelegate.m */; };
-		1894C78A1D77D4730030255D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7891D77D4730030255D /* ViewController.m */; };
 		1894C78D1D77D4730030255D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894C78B1D77D4730030255D /* Main.storyboard */; };
 		1894C78F1D77D4730030255D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894C78E1D77D4730030255D /* Assets.xcassets */; };
 		1894C7921D77D4730030255D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894C7901D77D4730030255D /* LaunchScreen.storyboard */; };
 		1894C79D1D77D4730030255D /* SongguoLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C79C1D77D4730030255D /* SongguoLifeTests.m */; };
 		1894C7A81D77D4730030255D /* SongguoLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7A71D77D4730030255D /* SongguoLifeUITests.m */; };
+		1894C7D21D77D67A0030255D /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7D11D77D67A0030255D /* MyAppDelegate.m */; };
+		1894C7D81D77DFBC0030255D /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7D71D77DFBC0030255D /* BaseModel.m */; };
+		1894C7DB1D77DFD10030255D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7DA1D77DFD10030255D /* BaseViewController.m */; };
+		4A8FFFCDF65F8AD9D202A27C /* libPods-SongguoLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 563F6A647E281725CDF830BB /* libPods-SongguoLife.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051EE440189E08B556574E7A /* Pods-SongguoLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongguoLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-SongguoLife/Pods-SongguoLife.release.xcconfig"; sourceTree = "<group>"; };
+		1384972B1E0D86F3ADD7D071 /* Pods-SongguoLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SongguoLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SongguoLife/Pods-SongguoLife.debug.xcconfig"; sourceTree = "<group>"; };
 		1894C77F1D77D4730030255D /* SongguoLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongguoLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1894C7831D77D4730030255D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1894C7851D77D4730030255D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1894C7861D77D4730030255D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1894C7881D77D4730030255D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1894C7891D77D4730030255D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1894C78C1D77D4730030255D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1894C78E1D77D4730030255D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1894C7911D77D4730030255D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,14 @@
 		1894C7A31D77D4730030255D /* SongguoLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongguoLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1894C7A71D77D4730030255D /* SongguoLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongguoLifeUITests.m; sourceTree = "<group>"; };
 		1894C7A91D77D4730030255D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1894C7D01D77D67A0030255D /* MyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		1894C7D11D77D67A0030255D /* MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
+		1894C7D31D77D6E40030255D /* MyConfig.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyConfig.pch; sourceTree = "<group>"; };
+		1894C7D61D77DFBC0030255D /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		1894C7D71D77DFBC0030255D /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		1894C7D91D77DFD10030255D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1894C7DA1D77DFD10030255D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		563F6A647E281725CDF830BB /* libPods-SongguoLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongguoLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8FFFCDF65F8AD9D202A27C /* libPods-SongguoLife.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 				1894C79B1D77D4730030255D /* SongguoLifeTests */,
 				1894C7A61D77D4730030255D /* SongguoLifeUITests */,
 				1894C7801D77D4730030255D /* Products */,
+				197E6BA6552C81CD8B334C9A /* Pods */,
+				755EF272C7879B152DF74545 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +112,8 @@
 		1894C7811D77D4730030255D /* SongguoLife */ = {
 			isa = PBXGroup;
 			children = (
-				1894C7851D77D4730030255D /* AppDelegate.h */,
-				1894C7861D77D4730030255D /* AppDelegate.m */,
-				1894C7881D77D4730030255D /* ViewController.h */,
-				1894C7891D77D4730030255D /* ViewController.m */,
-				1894C78B1D77D4730030255D /* Main.storyboard */,
-				1894C78E1D77D4730030255D /* Assets.xcassets */,
-				1894C7901D77D4730030255D /* LaunchScreen.storyboard */,
-				1894C7931D77D4730030255D /* Info.plist */,
+				1894C7B51D77D6410030255D /* MyClasses */,
+				1894C7CF1D77D6420030255D /* MyResources */,
 				1894C7821D77D4730030255D /* Supporting Files */,
 			);
 			path = SongguoLife;
@@ -117,7 +122,14 @@
 		1894C7821D77D4730030255D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1894C78B1D77D4730030255D /* Main.storyboard */,
+				1894C78E1D77D4730030255D /* Assets.xcassets */,
+				1894C7901D77D4730030255D /* LaunchScreen.storyboard */,
+				1894C7931D77D4730030255D /* Info.plist */,
 				1894C7831D77D4730030255D /* main.m */,
+				1894C7D01D77D67A0030255D /* MyAppDelegate.h */,
+				1894C7D11D77D67A0030255D /* MyAppDelegate.m */,
+				1894C7D31D77D6E40030255D /* MyConfig.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +152,257 @@
 			path = SongguoLifeUITests;
 			sourceTree = "<group>";
 		};
+		1894C7B51D77D6410030255D /* MyClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7B71D77D6410030255D /* MyItems */,
+				1894C7B61D77D6410030255D /* MyCategories */,
+				1894C7CD1D77D6420030255D /* MyLibs */,
+				1894C7CE1D77D6420030255D /* MyTools */,
+			);
+			path = MyClasses;
+			sourceTree = "<group>";
+		};
+		1894C7B61D77D6410030255D /* MyCategories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyCategories;
+			sourceTree = "<group>";
+		};
+		1894C7B71D77D6410030255D /* MyItems */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7BD1D77D6420030255D /* BasePart */,
+				1894C7C11D77D6420030255D /* HomePart */,
+				1894C7D41D77DF980030255D /* ExplorePart */,
+				1894C7B81D77D6420030255D /* ActivityPart */,
+				1894C7CA1D77D6420030255D /* MePart */,
+			);
+			path = MyItems;
+			sourceTree = "<group>";
+		};
+		1894C7B81D77D6420030255D /* ActivityPart */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7B91D77D6420030255D /* IndexPage */,
+			);
+			path = ActivityPart;
+			sourceTree = "<group>";
+		};
+		1894C7B91D77D6420030255D /* IndexPage */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7BA1D77D6420030255D /* Controller */,
+				1894C7BB1D77D6420030255D /* Model */,
+				1894C7BC1D77D6420030255D /* View */,
+			);
+			path = IndexPage;
+			sourceTree = "<group>";
+		};
+		1894C7BA1D77D6420030255D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1894C7BB1D77D6420030255D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1894C7BC1D77D6420030255D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1894C7BD1D77D6420030255D /* BasePart */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7BE1D77D6420030255D /* Controller */,
+				1894C7BF1D77D6420030255D /* Model */,
+				1894C7C01D77D6420030255D /* View */,
+			);
+			path = BasePart;
+			sourceTree = "<group>";
+		};
+		1894C7BE1D77D6420030255D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7D91D77DFD10030255D /* BaseViewController.h */,
+				1894C7DA1D77DFD10030255D /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1894C7BF1D77D6420030255D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7D61D77DFBC0030255D /* BaseModel.h */,
+				1894C7D71D77DFBC0030255D /* BaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1894C7C01D77D6420030255D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1894C7C11D77D6420030255D /* HomePart */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7C21D77D6420030255D /* ChoicenessDetail */,
+				1894C7C61D77D6420030255D /* IndexPage */,
+			);
+			path = HomePart;
+			sourceTree = "<group>";
+		};
+		1894C7C21D77D6420030255D /* ChoicenessDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7C31D77D6420030255D /* Controller */,
+				1894C7C41D77D6420030255D /* Model */,
+				1894C7C51D77D6420030255D /* View */,
+			);
+			path = ChoicenessDetail;
+			sourceTree = "<group>";
+		};
+		1894C7C31D77D6420030255D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1894C7C41D77D6420030255D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1894C7C51D77D6420030255D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1894C7C61D77D6420030255D /* IndexPage */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7C71D77D6420030255D /* Controller */,
+				1894C7C81D77D6420030255D /* Model */,
+				1894C7C91D77D6420030255D /* View */,
+			);
+			path = IndexPage;
+			sourceTree = "<group>";
+		};
+		1894C7C71D77D6420030255D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1894C7C81D77D6420030255D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1894C7C91D77D6420030255D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1894C7CA1D77D6420030255D /* MePart */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7CB1D77D6420030255D /* Controller */,
+				1894C7CC1D77D6420030255D /* View */,
+			);
+			path = MePart;
+			sourceTree = "<group>";
+		};
+		1894C7CB1D77D6420030255D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1894C7CC1D77D6420030255D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1894C7CD1D77D6420030255D /* MyLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyLibs;
+			sourceTree = "<group>";
+		};
+		1894C7CE1D77D6420030255D /* MyTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyTools;
+			sourceTree = "<group>";
+		};
+		1894C7CF1D77D6420030255D /* MyResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyResources;
+			sourceTree = "<group>";
+		};
+		1894C7D41D77DF980030255D /* ExplorePart */ = {
+			isa = PBXGroup;
+			children = (
+				1894C7D51D77DF980030255D /* IndexPage */,
+			);
+			path = ExplorePart;
+			sourceTree = "<group>";
+		};
+		1894C7D51D77DF980030255D /* IndexPage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IndexPage;
+			sourceTree = "<group>";
+		};
+		197E6BA6552C81CD8B334C9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1384972B1E0D86F3ADD7D071 /* Pods-SongguoLife.debug.xcconfig */,
+				051EE440189E08B556574E7A /* Pods-SongguoLife.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		755EF272C7879B152DF74545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				563F6A647E281725CDF830BB /* libPods-SongguoLife.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1894C7AC1D77D4730030255D /* Build configuration list for PBXNativeTarget "SongguoLife" */;
 			buildPhases = (
+				FF442852806AB3E3F06FF5D0 /* Check Pods Manifest.lock */,
 				1894C77B1D77D4730030255D /* Sources */,
 				1894C77C1D77D4730030255D /* Frameworks */,
 				1894C77D1D77D4730030255D /* Resources */,
+				20835EB95EE0D11739F029CD /* Embed Pods Frameworks */,
+				49E3C4717F48B9B9BC32D286 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +531,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20835EB95EE0D11739F029CD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongguoLife/Pods-SongguoLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E3C4717F48B9B9BC32D286 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SongguoLife/Pods-SongguoLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF442852806AB3E3F06FF5D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1894C77B1D77D4730030255D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1894C78A1D77D4730030255D /* ViewController.m in Sources */,
-				1894C7871D77D4730030255D /* AppDelegate.m in Sources */,
+				1894C7D81D77DFBC0030255D /* BaseModel.m in Sources */,
+				1894C7DB1D77DFD10030255D /* BaseViewController.m in Sources */,
+				1894C7D21D77D67A0030255D /* MyAppDelegate.m in Sources */,
 				1894C7841D77D4730030255D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,8 +724,10 @@
 		};
 		1894C7AD1D77D4730030255D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1384972B1E0D86F3ADD7D071 /* Pods-SongguoLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SongguoLife/MyConfig.pch";
 				INFOPLIST_FILE = SongguoLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YingJun.SongguoLife;
@@ -420,8 +737,10 @@
 		};
 		1894C7AE1D77D4730030255D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051EE440189E08B556574E7A /* Pods-SongguoLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SongguoLife/MyConfig.pch";
 				INFOPLIST_FILE = SongguoLife/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YingJun.SongguoLife;
@@ -496,6 +815,7 @@
 				1894C7AE1D77D4730030255D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1894C7AF1D77D4730030255D /* Build configuration list for PBXNativeTarget "SongguoLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +824,7 @@
 				1894C7B11D77D4730030255D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1894C7B21D77D4730030255D /* Build configuration list for PBXNativeTarget "SongguoLifeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +833,7 @@
 				1894C7B41D77D4730030255D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
