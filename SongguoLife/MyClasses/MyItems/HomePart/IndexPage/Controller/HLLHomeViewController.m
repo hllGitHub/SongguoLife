@@ -7,17 +7,32 @@
 //
 
 #import "HLLHomeViewController.h"
+#import "HLLCustomNavView.h"
 
 @interface HLLHomeViewController ()
+
+/**
+ *  自定义导航栏
+ */
+@property (nonatomic, strong)   HLLCustomNavView *navView;
 
 @end
 
 @implementation HLLHomeViewController
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    // 隐藏系统导航栏
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-// 172	145	142	
     self.view.backgroundColor = [UIColor colorWithHexString:@"#F8F1E1"];
+    
+    [self initData];
+    [self makeView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,14 +40,28 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark - Initial data and view
+- (void)initData {
+//    for (NSString *familyName in [UIFont familyNames]) {
+//        DB_Log(@"familyName: %@", familyName);
+//        if ([familyName isEqualToString:@"Candara"]) {
+//            DB_Log(@"是这个");
+//        }
+//    }
 }
-*/
+
+- (void)makeView {
+    [self makeNavView];
+}
+
+- (void)makeNavView {
+    self.navView = [[HLLCustomNavView alloc]initWithTitle:@"松 果"];
+    [self.view addSubview:self.navView];
+    
+    [self.navView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.and.right.offset(0);
+        make.height.equalTo(64);
+    }];
+}
 
 @end

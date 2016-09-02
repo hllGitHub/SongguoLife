@@ -32,11 +32,20 @@
 
 /////////////////////* 宏定义方法 *////////////////////////
 
-#define NAV_BACK @"#D21112"
-#define BACK_COLOR @"#F7F4F0"
-#define TITLE_NORMAL_COLOR @"#B0B0B0"
-#define TITLE_HIGHLIGHT_COLOR  @"#FF5723"
-#define NAV_TITLE_COLOR [UIColor colorWithHexString:@"#AC918E"]
+//__weak typeof(self) weakSelf;
+//#define WeakSelf(weakSelf) (__weak typeof(self) weakSelf);
+
+
+#define FontName @"Candara"
+
+/**
+ *  颜色
+ */
+#define NAV_BACK [UIColor colorWithHexString:@"#F7F4F0"]
+#define BACK_COLOR [UIColor colorWithHexString:@"#F7F4F0"]
+#define TITLE_NORMAL_COLOR [UIColor colorWithHexString:@"#B0B0B0"]
+#define TITLE_HIGHLIGHT_COLOR  [UIColor colorWithHexString:@"#FF5723"]
+#define NAV_TITLE_COLOR [UIColor colorWithHexString:@"#68443E"]
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 

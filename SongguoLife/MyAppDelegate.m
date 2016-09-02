@@ -14,7 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithHexString:BACK_COLOR]];
+    [[UINavigationBar appearance] setBarTintColor:BACK_COLOR];
     [UINavigationBar appearance].clipsToBounds = YES;
     
     // 设置网络配置文件

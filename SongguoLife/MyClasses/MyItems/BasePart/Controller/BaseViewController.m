@@ -16,13 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithHexString:BACK_COLOR];
+    self.view.backgroundColor = BACK_COLOR;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
-    DB_Log(@"内存溢出%s", __func__);
+    DB_Log(@"%s内存溢出", __func__);
     
     // Dispose of any resources that can be recreated.
 }

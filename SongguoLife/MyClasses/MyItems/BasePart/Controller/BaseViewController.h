@@ -10,4 +10,11 @@
 
 @interface BaseViewController : UIViewController
 
+/**
+ *  隐藏返回按钮
+ */
+@property (nonatomic, assign)   BOOL    hiddenBackButton;
+
+
+
 @end

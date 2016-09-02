@@ -45,8 +45,11 @@
 		188A3B6E1D7825C4007AA866 /* HLLMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A3B6D1D7825C4007AA866 /* HLLMeViewController.m */; };
 		188A3B711D7825DE007AA866 /* HLLTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A3B701D7825DE007AA866 /* HLLTabbarViewController.m */; };
 		188A3B741D7834EB007AA866 /* HLLCustomNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188A3B731D7834EB007AA866 /* HLLCustomNavView.m */; };
+		189218101D7921D600DC61A0 /* HLLBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892180F1D7921D600DC61A0 /* HLLBaseCell.m */; };
+		189218181D7978DE00DC61A0 /* Candara.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 189218171D7978DE00DC61A0 /* Candara.ttf */; };
+		1892181E1D7985DB00DC61A0 /* ExpandButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892181B1D7985DB00DC61A0 /* ExpandButton.m */; };
+		1892181F1D7985DB00DC61A0 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892181D1D7985DB00DC61A0 /* UIImageView+CornerRadius.m */; };
 		1894C7841D77D4730030255D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C7831D77D4730030255D /* main.m */; };
-		1894C78D1D77D4730030255D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894C78B1D77D4730030255D /* Main.storyboard */; };
 		1894C78F1D77D4730030255D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1894C78E1D77D4730030255D /* Assets.xcassets */; };
 		1894C7921D77D4730030255D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1894C7901D77D4730030255D /* LaunchScreen.storyboard */; };
 		1894C79D1D77D4730030255D /* SongguoLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1894C79C1D77D4730030255D /* SongguoLifeTests.m */; };
@@ -125,9 +128,15 @@
 		188A3B701D7825DE007AA866 /* HLLTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLTabbarViewController.m; sourceTree = "<group>"; };
 		188A3B721D7834EB007AA866 /* HLLCustomNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLCustomNavView.h; sourceTree = "<group>"; };
 		188A3B731D7834EB007AA866 /* HLLCustomNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLCustomNavView.m; sourceTree = "<group>"; };
+		1892180E1D7921D600DC61A0 /* HLLBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLLBaseCell.h; sourceTree = "<group>"; };
+		1892180F1D7921D600DC61A0 /* HLLBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLLBaseCell.m; sourceTree = "<group>"; };
+		189218171D7978DE00DC61A0 /* Candara.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Candara.ttf; sourceTree = "<group>"; };
+		1892181A1D7985DB00DC61A0 /* ExpandButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandButton.h; sourceTree = "<group>"; };
+		1892181B1D7985DB00DC61A0 /* ExpandButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandButton.m; sourceTree = "<group>"; };
+		1892181C1D7985DB00DC61A0 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		1892181D1D7985DB00DC61A0 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		1894C77F1D77D4730030255D /* SongguoLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongguoLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1894C7831D77D4730030255D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1894C78C1D77D4730030255D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1894C78E1D77D4730030255D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1894C7911D77D4730030255D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1894C7931D77D4730030255D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -244,6 +253,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		189218161D7978DE00DC61A0 /* FontLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				189218171D7978DE00DC61A0 /* Candara.ttf */,
+			);
+			path = FontLibrary;
+			sourceTree = "<group>";
+		};
+		189218191D7985DB00DC61A0 /* FactoryUI */ = {
+			isa = PBXGroup;
+			children = (
+				1892181A1D7985DB00DC61A0 /* ExpandButton.h */,
+				1892181B1D7985DB00DC61A0 /* ExpandButton.m */,
+				1892181C1D7985DB00DC61A0 /* UIImageView+CornerRadius.h */,
+				1892181D1D7985DB00DC61A0 /* UIImageView+CornerRadius.m */,
+			);
+			path = FactoryUI;
+			sourceTree = "<group>";
+		};
 		1894C7761D77D4730030255D = {
 			isa = PBXGroup;
 			children = (
@@ -279,7 +307,6 @@
 		1894C7821D77D4730030255D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1894C78B1D77D4730030255D /* Main.storyboard */,
 				1894C78E1D77D4730030255D /* Assets.xcassets */,
 				1894C7DC1D781A310030255D /* LaunchPart.xcassets */,
 				1894C7DE1D781D7D0030255D /* LoginPart.xcassets */,
@@ -419,6 +446,8 @@
 		1894C7C01D77D6420030255D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1892180E1D7921D600DC61A0 /* HLLBaseCell.h */,
+				1892180F1D7921D600DC61A0 /* HLLBaseCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -526,6 +555,7 @@
 		1894C7CD1D77D6420030255D /* MyLibs */ = {
 			isa = PBXGroup;
 			children = (
+				189218191D7985DB00DC61A0 /* FactoryUI */,
 			);
 			path = MyLibs;
 			sourceTree = "<group>";
@@ -540,6 +570,7 @@
 		1894C7CF1D77D6420030255D /* MyResources */ = {
 			isa = PBXGroup;
 			children = (
+				189218161D7978DE00DC61A0 /* FontLibrary */,
 				188A3B221D782399007AA866 /* LaunchAnimationImages */,
 			);
 			path = MyResources;
@@ -695,6 +726,7 @@
 				188A3B4D1D782399007AA866 /* launchA13.png in Resources */,
 				188A3B4C1D782399007AA866 /* launchA12.png in Resources */,
 				188A3B201D782045007AA866 /* TabbarPart.xcassets in Resources */,
+				189218181D7978DE00DC61A0 /* Candara.ttf in Resources */,
 				188A3B511D782399007AA866 /* launchA17.png in Resources */,
 				188A3B4A1D782399007AA866 /* launchA10.png in Resources */,
 				188A3B4E1D782399007AA866 /* launchA14.png in Resources */,
@@ -722,7 +754,6 @@
 				188A3B461D782399007AA866 /* launchA06.png in Resources */,
 				188A3B5A1D782399007AA866 /* launchA26.png in Resources */,
 				188A3B1E1D78200A007AA866 /* ExplorePart.xcassets in Resources */,
-				1894C78D1D77D4730030255D /* Main.storyboard in Resources */,
 				188A3B431D782399007AA866 /* launchA03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -797,16 +828,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				188A3B741D7834EB007AA866 /* HLLCustomNavView.m in Sources */,
+				1892181E1D7985DB00DC61A0 /* ExpandButton.m in Sources */,
 				188A3B621D7824BC007AA866 /* HLLHomeViewController.m in Sources */,
 				188A3B681D782576007AA866 /* HLLExploreViewController.m in Sources */,
 				188A3B6B1D7825B2007AA866 /* HLLActivityViewController.m in Sources */,
 				188A3B711D7825DE007AA866 /* HLLTabbarViewController.m in Sources */,
 				1894C7D81D77DFBC0030255D /* BaseModel.m in Sources */,
 				188A3B6E1D7825C4007AA866 /* HLLMeViewController.m in Sources */,
+				189218101D7921D600DC61A0 /* HLLBaseCell.m in Sources */,
 				188A3B5F1D7823C9007AA866 /* UIColor+ZYLHexColor.m in Sources */,
 				1894C7DB1D77DFD10030255D /* BaseViewController.m in Sources */,
 				1894C7D21D77D67A0030255D /* MyAppDelegate.m in Sources */,
 				1894C7841D77D4730030255D /* main.m in Sources */,
+				1892181F1D7985DB00DC61A0 /* UIImageView+CornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,14 +876,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1894C78B1D77D4730030255D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1894C78C1D77D4730030255D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1894C7901D77D4730030255D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

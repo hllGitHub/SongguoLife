@@ -21,12 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithHexString:TITLE_NORMAL_COLOR], NSFontAttributeName : [UIFont systemFontOfSize:12.f]} forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithHexString:TITLE_HIGHLIGHT_COLOR], NSFontAttributeName : [UIFont systemFontOfSize:12.f]} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : TITLE_NORMAL_COLOR, NSFontAttributeName : [UIFont systemFontOfSize:12.f]} forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : TITLE_HIGHLIGHT_COLOR, NSFontAttributeName : [UIFont systemFontOfSize:12.f]} forState:UIControlStateSelected];
     UIOffset offset = {0.f, -3.f};
     [[UITabBarItem appearance] setTitlePositionAdjustment:offset];
     
-    self.tabBar.backgroundColor = [UIColor colorWithHexString:BACK_COLOR];
+    self.tabBar.backgroundColor = BACK_COLOR;
     [self createViewControllers];
 }
 
