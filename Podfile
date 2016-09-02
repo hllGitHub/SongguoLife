@@ -14,5 +14,6 @@ pod 'MJExtension', '~> 3.0.11'
 pod 'MJRefresh', '~> 3.1.9'
 pod 'SDCycleScrollView', '~> 1.65'
 pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
+pod 'TYAttributedLabel', '~> 2.6.2'
 
 end

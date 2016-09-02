@@ -32,6 +32,7 @@ PODS:
   - SDWebImage (3.8.1):
     - SDWebImage/Core (= 3.8.1)
   - SDWebImage/Core (3.8.1)
+  - TYAttributedLabel (2.6.2)
   - UITableView+FDTemplateLayoutCell (1.5.beta)
   - UMengShareSetup (0.0.1)
   - UMengSocialCOM (5.2.1)
@@ -48,6 +49,7 @@ DEPENDENCIES:
   - pop (from `https://github.com/facebook/pop.git`)
   - SDCycleScrollView (~> 1.65)
   - SDWebImage (~> 3.8.1)
+  - TYAttributedLabel (~> 2.6.2)
   - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
   - UMengShareSetup (~> 0.0.1)
   - UMengSocialCOM (~> 5.2.1)
@@ -73,6 +75,7 @@ SPEC CHECKSUMS:
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  TYAttributedLabel: 1c1f1e7604043ba584e005d4fd3aee8a1a7a2020
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
   UMengShareSetup: 815f1310f5fb4422cf4e9e6827b5b94d4302441d
   UMengSocialCOM: 074c135ce349aa4c8848d3fb8458757bcb6ffb67

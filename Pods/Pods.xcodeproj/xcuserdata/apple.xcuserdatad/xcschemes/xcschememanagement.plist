@@ -49,6 +49,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TYAttributedLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>UITableView+FDTemplateLayoutCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -77,7 +82,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>108B3CB2D96887E0CA1B05259348D7BF</key>
+		<key>1F9EF5DA3E3435F14CA86A24A1098A3F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>25C90CD95E96A3A905D3FA0B88313649</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,17 +102,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B22AF076183156C7E8C9EF3E7FC0CC6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4F5E981FAE8F4719BEE68AD42910A78B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>50B5072A90BD96302ED066F116F577C5</key>
+		<key>47B58EF0714B7A17BE21375023932FEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -117,17 +117,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>777644BAA2672BA808E423786ABEFF73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9EAB3E42EF957541E6C3C76D35FD008E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A1554A60505BA90956C98FAEA2133F54</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A8F000014A7DE6989F0B3BF1726E0911</key>
+		<key>A7366B893B72337C1408FEF2DF7EB7FD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -137,12 +137,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B4FD939BF9D2168DE89F43FB7F94F776</key>
+		<key>C5C9817005E11D3526EF798DA6F2F25A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE97783380BE76F146F5B2A34C048BAF</key>
+		<key>E909177E88EDF2B7E3163E068FE8FE06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE5AD18F422D503117A3206F914A2251</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF7EBB8E21CD8224E98232557045056D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

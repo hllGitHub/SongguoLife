@@ -645,6 +645,7 @@
 		1894C7771D77D4730030255D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HLL;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HLL;
 				TargetAttributes = {
